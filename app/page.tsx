@@ -321,7 +321,7 @@ export default function Home() {
                   image: "/images/savour.webp",
                 },
               ].map((item, index) => (
-                <Link key={index} href={`/your-route/${item.id}`}> {/* Adjust the href to your desired route */}
+                <Link key={index} href={`/your-route/${index}`}> {/* Use index as a unique identifier */}
                   <Card className="overflow-hidden cursor-pointer h-40"> {/* Set a fixed height for all cards */}
                     <CardContent className="p-6 flex items-center space-x-4 h-full"> {/* Ensure content takes full height */}
                       <Image src={item.image} width={100} height={100} alt={item.title} className="rounded-full" />
