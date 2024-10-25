@@ -38,7 +38,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col min-h-screen">
-      <header className="absolute top-0 left-0 right-0 z-10 flex items-center justify-between p-4">
+      <header className="absolute top-0 left-0 right-0 z-10 flex items-center justify-between p-4 bg-black bg-opacity-70"> {/* Added background color and transparency */}
         <Link href="/" className="flex items-center">
           <Image
             src="/images/logo.png" 
@@ -58,16 +58,14 @@ export default function Home() {
               {item}
             </Link>
           ))}
-          <Link href="#" className="text-lg font-medium text-white bg-gray-800 hover:bg-gray-700 rounded-md px-4 py-2 flex items-center">
-            Book Now
-          </Link>
+          
         </nav>
       </header>
 
       <main className="flex-grow">
         <section className="relative h-screen flex items-center justify-center">
           <Image
-            src="/images/heroimage.webp"
+            src="/images/hero2.png"
             fill
             alt="Background"
             className="absolute inset-0"
