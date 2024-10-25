@@ -58,7 +58,9 @@ export default function Home() {
               {item}
             </Link>
           ))}
-          
+          <Link href="#" className="text-lg font-medium text-white bg-gray-800 hover:bg-gray-700 rounded-md px-4 py-2 flex items-center">
+            Book Now
+          </Link>
         </nav>
       </header>
 
@@ -76,9 +78,7 @@ export default function Home() {
             <p className="text-lg text-white max-w-2xl mx-auto">
               Immerse yourself in a world of authentic, locally-curated experiences that foster social connections and sustainable practices.
             </p>
-            <Button size="lg" className="bg-white text-gray-400 hover:bg-gray-100 text-lg px-6 py-3 mt-6">
-              Book Now
-            </Button>
+            
           </div>
         </section>
 
